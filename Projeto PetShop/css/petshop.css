@@ -1,0 +1,151 @@
+/* Tags Gerais (elemento) */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+    background-image: url("../img/fundo-topo.jpg");
+    padding: 10px 0;
+    /* 10px superior e inferior  */
+
+}
+
+header h1{
+    margin: 0;
+    height: 84px;
+}
+
+nav a{
+    color: #000;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #6dd432;
+}
+
+nav li{
+    display: inline;
+    /* border: 1px solid blue; */
+    margin-right: 10px;
+    padding-right: 30px;
+    background-image: url("../img/patinha-preta.png");
+    background-repeat: no-repeat;
+    background-position: center right;
+
+}
+nav{
+    padding: 15px 0; 
+    text-align: center; /* Alinha as opções do menu */
+}
+
+h2{
+    text-transform:uppercase;
+    margin-bottom: 15px;
+}
+
+iframe{
+    width: 100%;
+}
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+/* Especificos (#id) */
+#itemContato{
+    background-image: none;
+}
+
+#Produto .flex-container, #contato .flex-container{
+    margin-top: 43px;
+}
+
+/* Grupos de elementos diferente (.classe) */
+
+.fundo-verde{
+    background-color: #bdff9c;
+}
+
+.container{
+    width: 900px;
+   
+    margin: 0 auto;
+    padding: 56px 0 ;
+
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.flex-container .col{
+    width: 430px;
+}
+
+.produto{
+    width: 235px;
+    text-align: center;
+}
+
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color:#fff;
+    height: 160px;
+    line-height: 160px;
+    margin: 0 0 15px 0;
+    /* superior - right -  bottom - left */
+    text-align: center;
+}
+
+.produto figure img{
+    vertical-align: middle;
+}
+
+.texto-centralizado{
+    text-align: center;
+}
+
+.btn-pata{
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color:#000;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    font-size: 32px;
+    margin: 0 10px;
+    color: #333;
+}
+
+footer a:hover {
+    color: #0077b5;
+}
